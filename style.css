@@ -1,0 +1,46 @@
+body{
+margin:0;
+display:flex;
+justify-content: center;
+height:100vh;
+align-items:center;
+background-color: rgb(55, 81, 143);
+
+
+}
+.container{
+    background-color:rgb(169, 180, 118);
+    padding:20px;
+    margin:5px;
+    border:0ch;
+    border-color:black;
+    width:400px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.5);
+    border-radius:10px;
+    
+}
+.textarea{
+   
+    
+   resize:None;
+    margin:2px;
+    border-radius:5px;
+    box-sizing:border-box;
+    font-size:15px;
+    border:solid 2px ; 
+    width: 349px;
+    height: 66px;
+}
+.counter-container{
+    display:flex;
+    justify-content:space-between;
+    color:black;
+    font-weight:bold;
+    padding:0 5px;
+}
+.total-counter{
+    color:slateblue
+}
+.remaining-counter{
+    color:red;
+}
